@@ -1,0 +1,1 @@
+node -e "const fs = require('fs'); fs.writeFileSync('icon.svg', '<svg xmlns=\"http://w3.org\" viewBox=\"0 0 2000 2000\" width=\"2000\" height=\"2000\"><rect x=\"500\" y=\"500\" width=\"1000\" height=\"1000\" fill=\"#007acc\"/></svg>');"

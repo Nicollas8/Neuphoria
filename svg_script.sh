@@ -1,1 +1,0 @@
-node -e "const fs = require('fs'); const b64 = fs.readFileSync('icon.png', 'base64'); fs.writeFileSync('icon.svg', \`<svg xmlns='http://w3.org' viewBox='0 0 2000 2000' width='2000' height='2000'><image width='2000' height='2000' href='data:image/png;base64,\${b64}'/></svg>\`);"
